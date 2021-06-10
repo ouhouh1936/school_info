@@ -1,0 +1,6 @@
+@import "./m_main.css";
+@import "reset.css";
+
+body {
+  background-color: aquamarine;
+}
