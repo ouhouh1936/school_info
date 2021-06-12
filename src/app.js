@@ -5,11 +5,14 @@ import bodyParser from "body-parser";
 import dotenv from "dotenv";
 import globalRouter from "./router/globalRouter";
 import adminRouter from "./router/adminRouter";
+import connect from "../db";
 
 dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT;
+
+connect();
 
 app.set("view engine", "pug");
 app.use(morgan("dev"));
