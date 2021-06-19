@@ -6,7 +6,7 @@
 - [] RESULT ("/result")
 
 - [] CLASS MANAGEMENT ("/admin/class")
-- [] STUDENT MANAGMENT ("/admin/student")
+- [] MANAGMENT ("/admin/")
 
 <pre>
     Node.js, Pug, Babel, MongoDB,
@@ -15,7 +15,7 @@
 
 # Model
 
-## Student
+##
 
 - name(String)
 - gender(String)
